@@ -51,6 +51,7 @@
 		15A4C3012373C1A600170A12 /* WKFramewokDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKFramewokDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A4C3052373C1A600170A12 /* WKFramewokDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKFramewokDemoUITests.swift; sourceTree = "<group>"; };
 		15A4C3072373C1A600170A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A4C3132373C38C00170A12 /* WKFrameworkLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WKFrameworkLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		15A4C2D42373C1A500170A12 = {
 			isa = PBXGroup;
 			children = (
+				15A4C3132373C38C00170A12 /* WKFrameworkLibrary */,
 				15A4C2DF2373C1A500170A12 /* WKFramewokDemo */,
 				15A4C2F92373C1A600170A12 /* WKFramewokDemoTests */,
 				15A4C3042373C1A600170A12 /* WKFramewokDemoUITests */,
