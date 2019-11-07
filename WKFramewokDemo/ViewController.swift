@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import WKFrameworkLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let a = UIView()
+        a.firstViewController()
     }
 
 

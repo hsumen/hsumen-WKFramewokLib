@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		15A4C2F02373C1A600170A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A4C2EE2373C1A600170A12 /* LaunchScreen.storyboard */; };
 		15A4C2FB2373C1A600170A12 /* WKFramewokDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4C2FA2373C1A600170A12 /* WKFramewokDemoTests.swift */; };
 		15A4C3062373C1A600170A12 /* WKFramewokDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4C3052373C1A600170A12 /* WKFramewokDemoUITests.swift */; };
+		15A4C3162373CFE300170A12 /* WKFrameworkLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 15A4C3152373CFE300170A12 /* WKFrameworkLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A4C3162373CFE300170A12 /* WKFrameworkLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,7 @@
 				15A4C2F92373C1A600170A12 /* WKFramewokDemoTests */,
 				15A4C3042373C1A600170A12 /* WKFramewokDemoUITests */,
 				15A4C2DE2373C1A500170A12 /* Products */,
+				15A4C3142373CFE300170A12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +136,13 @@
 			path = WKFramewokDemoUITests;
 			sourceTree = "<group>";
 		};
+		15A4C3142373CFE300170A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +159,9 @@
 			dependencies = (
 			);
 			name = WKFramewokDemo;
+			packageProductDependencies = (
+				15A4C3152373CFE300170A12 /* WKFrameworkLibrary */,
+			);
 			productName = WKFramewokDemo;
 			productReference = 15A4C2DD2373C1A500170A12 /* WKFramewokDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -372,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8TBSS97Y28;
 				INFOPLIST_FILE = WKFramewokDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8TBSS97Y28;
 				INFOPLIST_FILE = WKFramewokDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,6 +611,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15A4C3152373CFE300170A12 /* WKFrameworkLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WKFrameworkLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		15A4C2E92373C1A500170A12 /* WKFramewokDemo.xcdatamodeld */ = {
