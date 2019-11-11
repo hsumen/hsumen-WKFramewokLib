@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let a = UIView()
         a.firstViewController()
+        KScreen.screenHeight
     }
 
 
